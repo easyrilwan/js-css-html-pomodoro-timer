@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to top right, coral, lightcoral);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  font-family: Montserrat, sans-serif;
+}
+
+.pomodoro-timer {
+  padding: 60px;
+  border: 1px solid rgb(0, 0, 0, 0.05);
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.custom-slider {
+  width: 100%;
+  height: 20px;
+  background-color: rgba(248, 248, 255, 0.3);
+}
+
+.fill {
+  width: 100%;
+  height: 20px;
+  background-color: turquoise;
+}
+
+.task-block {
+  background-color: rgba(85, 43, 43, 0.336);
+  border-radius: 20px;
+  margin: 10px 0;
+  height: 60px;
+  width: 556px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.task-block p {
+  width: 506px;
+  font-size: 20px;
+}
+
+.task-block .delete-icon {
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.controller-button {
+  height: 100%;
+  border: none;
+  width: 136px;
+  border-radius: 0 20px 20px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.input-container {
+  width: 556px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+input {
+  background-color: gainsboro;
+  border-radius: 20px 0 0 20px;
+  height: 100%;
+  width: 420px;
+  padding: 0 30px;
+  border: none;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.submit-button {
+  background-color: forestgreen;
+  color: aliceblue;
+  border: none;
+  height: 100%;
+  width: 120px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 20px 20px 0;
+}
+
+.sub-text {
+  margin: 4px;
+}
+
+.active-button {
+  background-color: crimson;
+  color: aliceblue;
+}
